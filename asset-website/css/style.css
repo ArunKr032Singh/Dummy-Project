@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-inner img {
+    height: 31rem !important;
+    opacity: 0.5;
+}
+a.navbar-brand {
+    font-size: 37px;
+    font-weight: 600;
+    color: #000;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    top: 40%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+    .box1 {
+        background: #0d6efd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 4px;
+    }
+    .box {
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 4px;
+    }
+.icon {
+    background: #fff;
+    margin-right: 24px;
+    border-radius: 6px;
+}
+.box .icon {
+    background: #0d6efd;
+    margin-right: 24px;
+    border-radius: 6px;
+}
+.icon img {
+    margin: 18px;
+}
+.box1 p {
+    color: #fff;
+}
+.box1 p span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.box p {
+    color: #000;
+}
+.box p span {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+.feature img {
+    width: 20px;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.call img {
+    padding: 11px;
+    background: #0d6efd;
+    width: 54px;
+}
